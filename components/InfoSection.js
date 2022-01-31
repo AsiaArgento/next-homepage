@@ -29,12 +29,12 @@ function infoSection() {
             <a href='tel:720-909-1600'>(720) 909-1600</a>
             <h4>Find Me On</h4>
             <div className={styles.infoLinks}>
-                <a href='https://github.com/AsiaArgento' target='_blank'><BsGithub /></a>
-                <a href='https://stackmuncher.com/AsiaArgento' target='_blank'><BsStack /></a>
-                <a href='https://www.linkedin.com/in/matthew-marion-moncada/' target='_blank'><BsLinkedin /></a>
-                <a href='https://www.facebook.com/matthew.moncada.731/' target='_blank'><BsFacebook /></a>
-                <a href='https://www.instagram.com/misakamikotocsr/' target='_blank'><BsInstagram /></a>
-                <a href='https://www.youtube.com/channel/UCErCtUl-qkn8keHImVDeb6g' target='_blank'><BsYoutube /></a>
+                <a href='https://github.com/AsiaArgento' target='_blank' rel="noreferrer"><BsGithub /></a>
+                <a href='https://stackmuncher.com/AsiaArgento' target='_blank' rel="noreferrer"><BsStack /></a>
+                <a href='https://www.linkedin.com/in/matthew-marion-moncada/' target='_blank' rel="noreferrer"><BsLinkedin /></a>
+                <a href='https://www.facebook.com/matthew.moncada.731/' target='_blank' rel="noreferrer"><BsFacebook /></a>
+                <a href='https://www.instagram.com/misakamikotocsr/' target='_blank' rel="noreferrer"><BsInstagram /></a>
+                <a href='https://www.youtube.com/channel/UCErCtUl-qkn8keHImVDeb6g' target='_blank' rel="noreferrer"><BsYoutube /></a>
             </div>
         </div>
     </div>

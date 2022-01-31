@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Home</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="description" content="My name is Matthew Moncada. I am a frontend developer living in
         Denver, Colorado. This is my virtual business card with links to my relevant social accounts and
         an archive of my work." />

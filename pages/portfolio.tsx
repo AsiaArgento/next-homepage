@@ -21,7 +21,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Portfolio</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="description" content="My name is Matthew Moncada. I am a frontend developer living in
         Denver, Colorado. This is my portfolio of work over the years that I have been able to include." />
         <meta name="keywords" content="Matthew Marion Moncada, Frontend Developer, Web Developer, Business Card, WordPress, Full-stack, Denver, Colorado, United States of America, Portfolio" />
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                 <h1>Latest Works ( 2017 - Current )</h1>
                 <div className={styles.projectSection}>
                 {/* Projects Section */}
-                    <a href="https://mystifying-kirch-2e0d64.netlify.app/" target="_blank">
+                    <a href="https://mystifying-kirch-2e0d64.netlify.app/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={teslaLogo} alt="Tesla Logo" />
                             <div className={styles.greyBg}>
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </a>
-                    <a href="https://clone-2e37c.firebaseapp.com/" target="_blank">
+                    <a href="https://clone-2e37c.firebaseapp.com/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={amazonLogo} alt="Amazon Logo" />
                             <div className={styles.greyBg}>
@@ -77,26 +77,26 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </a>
-                    <a href="https://kodiakcakes.com/blogs/athletes" target="_blank">
+                    <a href="https://kodiakcakes.com/blogs/athletes" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={kodiakLogo} alt="Kodiak Cakes Logo" />
                             <div className={styles.greyBg}>
                                 <div className={styles.projectInfo}>
                                     <div className={styles.projectDesc}>
-                                    Developed the Athlete's blog for a client Kodiak Cakes. Built in Shopify.
+                                    Developed the Athletes blog for a client Kodiak Cakes. Built in Shopify.
                                     </div>
                                     <div className={styles.projectDetails}>
                                     Client: Kodiak Cakes | Type: Shopify | Year: 2021
                                     </div>
                                     <div className={styles.projectTitle}>
-                                    Athlete's Blog
+                                    Athletes Blog
                                     </div>
                                     <FaArrowRight style={{ color: "#4b21ff", fontSize: "2rem" }} />
                                 </div>
                             </div>
                         </div>
                     </a>
-                    <a href="https://replit.com/@MattMoncada/Space-Adventure" target="_blank">
+                    <a href="https://replit.com/@MattMoncada/Space-Adventure" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={replLogo} alt="Replit Logo" />
                             <div className={styles.greyBg}>
@@ -116,7 +116,7 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </a>
-                    <a href="https://replit.com/@MattMoncada/Text-Adventure-Game-with-Images-GUI-20#Main.java" target="_blank">
+                    <a href="https://replit.com/@MattMoncada/Text-Adventure-Game-with-Images-GUI-20#Main.java" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={replLogo} alt="Replit Logo" />
                             <div className={styles.greyBg}>
@@ -137,7 +137,7 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </a>
-                    <a href="https://replit.com/@MattMoncada/Text-Adventure-Game-with-GUI#Main.java" target="_blank">
+                    <a href="https://replit.com/@MattMoncada/Text-Adventure-Game-with-GUI#Main.java" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={replLogo} alt="Replit Logo" />
                             <div className={styles.greyBg}>
@@ -157,13 +157,13 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </a>
-                    <a href="https://scratch.mit.edu/projects/483711459/" target="_blank">
+                    <a href="https://scratch.mit.edu/projects/483711459/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={scratchLogo} alt="Scratch Logo" />
                             <div className={styles.greyBg}>
                                 <div className={styles.projectInfo}>
                                     <div className={styles.projectDesc}>
-                                    A simple remix of the popular 'Fish Food' game. Solve the multiplication problems in time
+                                    A simple remix of the popular Fish Food game. Solve the multiplication problems in time
                                     or get EATEN!
                                     </div>
                                     <div className={styles.projectDetails}>
@@ -177,13 +177,13 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </a>
-                    <a href="https://scratch.mit.edu/projects/477806023/" target="_blank">
+                    <a href="https://scratch.mit.edu/projects/477806023/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={scratchLogo} alt="Scratch Logo" />
                             <div className={styles.greyBg}>
                                 <div className={styles.projectInfo}>
                                     <div className={styles.projectDesc}>
-                                    A simple remix of the popular 'Asteroids' game. Shoot asteroids and get a HIGH score!
+                                    A simple remix of the popular Asteroids game. Shoot asteroids and get a HIGH score!
                                     </div>
                                     <div className={styles.projectDetails}>
                                     Client: theCoderSchool | Type: Scratch | Year: 2021
@@ -196,7 +196,7 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </a>
-                    <a href="https://offenpetro.com/" target="_blank">
+                    <a href="https://offenpetro.com/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={offenLogo} alt="Offen Petroleum Logo" />
                             <div className={styles.greyBg}>
@@ -215,7 +215,7 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </a>
-                    <a href="https://centrosanantonio.org/" target="_blank">
+                    <a href="https://centrosanantonio.org/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={centroLogo} alt="Centro San Antonio Logo" />
                             <div className={styles.greyBg}>
@@ -234,7 +234,7 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </a>
-                    <a href="https://anasandoval.org/" target="_blank">
+                    <a href="https://anasandoval.org/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={anaLogo} alt="Ana Sandoval Logo" />
                             <div className={styles.greyBg}>
@@ -253,7 +253,7 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </a>
-                    <a href="https://greatcoops.com/" target="_blank">
+                    <a href="https://greatcoops.com/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={coopsLogo} alt="Great Coops Logo" />
                             <div className={styles.greyBg}>
@@ -272,7 +272,7 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </a>
-                    <a href="https://matthewmoncadafirstwebsite.netlify.app/" target="_blank">
+                    <a href="https://matthewmoncadafirstwebsite.netlify.app/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={portfolioLogo} alt="Personal Portfolio Logo" />
                             <div className={styles.greyBg}>

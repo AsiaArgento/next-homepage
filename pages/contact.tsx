@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Contact</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="description" content="My name is Matthew Moncada. I am a frontend developer living in
         Denver, Colorado. This is my contact page, please send me a message regarding estimates for work or anything else." />
         <meta name="keywords" content="Matthew Marion Moncada, Frontend Developer, Web Developer, Business Card, WordPress, Full-stack, Denver, Colorado, United States of America" />
