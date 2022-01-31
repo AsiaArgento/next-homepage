@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+    font-family: 'Barlow', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Mobile-Portrait - Mobile First */
+.navBar {
+  position: relative;
+}
+
+.navBar button {
+  position: fixed;
+  right: 40px;
+  top: 40px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: #4b21ff;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  transform: translate3d(-100%, 0, 0);
+  transition: all 0.5s ease-in-out;
+  width: 0;
+  overflow: hidden;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+	justify-content: center;
+  font-family: 'Barlow', sans-serif;
+}
+
+.menuNav.showMenu {
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  transform: translate3d(0, 0, 0);
+  z-index: 5;
+}
+
+.menuNav a {
+  font-size: 2rem;
+	padding: 1rem;
+	display: block;
+	text-decoration: none;
+	color: white;
+  text-align: center;
+}
+
+.menuNav a:hover {
+  color: #F8FF21;
+  transform: scale(1.1);
+  transition: all ease-in-out 500ms;
+}
+
+.menuNav li:first-child {
+  margin-top: 7rem;
+}
+
+.portfolioImage {
+  height: 200px!important;
+}
+
+/* Mobile-Landscape (and larger) */
+@media (min-width: 480px) {
+
+}
+
+/* Tablet-Portrait (and larger) */
+@media (min-width: 768px) {
+  .menuNav a {
+    font-size: 2.5rem;
+  }
+}
+
+/* Tablet-Landscape (and larger) */
+@media (min-width: 992px) {
+
+}
+
+/* X-Large (and larger) */
+@media (min-width: 1680px) {
+
+}
+
+/* Laptops (and larger) */
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,107 @@
+/* Mobile-Portrait - Mobile First */
+.infoSection {
+    display: flex;
+    flex-direction: column;
+    background-color: #4C32FA;
+    color: #333;
+    text-align: center;
+}
+
+.infoSection .logo {
+    max-width: 300px;
+    padding-left: 2em;
+}
+
+.infoSection .infoBox {
+    padding: 1.5em;
+    background-color: #fff;
+}
+
+.infoSection a {
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.infoSection .infoBox .infoLinks {
+    display: flex;
+}
+
+.infoSection .infoBox .infoLinks a {
+    flex: 1;
+    font-size: 1.3rem;
+}
+
+/* Mobile-Landscape (and larger) */
+@media (min-width: 480px) {
+
+}
+
+/* Tablet-Portrait (and larger) */
+@media (min-width: 768px) {
+    .infoSection .logo {
+        padding-left: 0;
+        margin: 0 auto;
+    }
+}
+
+/* Tablet-Landscape (and larger) */
+@media (min-width: 992px) {
+
+}
+
+/* X-Large (and larger) */
+@media (min-width: 1680px) {
+
+}
+
+/* Laptop Media Styles */
+@media (min-width: 1100px) {
+    .infoSection {
+        background-color: #4C32FA;
+        color: #fefefe;
+        width: 23%;
+        padding: 56px 30px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .infoSection .logo {
+        position: absolute;
+        top: 0;
+        margin: 0 10% 0 5%;
+        max-width: 300px;
+    }
+    
+    .infoSection a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    
+    .infoSection .infoBox {
+        position: absolute;
+        bottom: 60px;
+        background-color: #4C32FA;
+        text-align: left;
+        padding: 0;
+    }
+    
+    .infoSection .infoBox h4 {
+        font-size: 1.1rem;
+        color: #fefefe;
+    }
+    
+    .infoSection .infoBox p {
+        font-size: 1rem;
+        font-weight: 300;
+        color: #fefefe;
+    }
+    
+    .infoSection .infoBox svg:hover {
+        transform: scale(1.1);
+        transition: all ease 300ms;
+        color:#D639BD;
+    }
+}

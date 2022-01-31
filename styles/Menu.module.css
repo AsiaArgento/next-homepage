@@ -1,0 +1,50 @@
+/* Mobile-Portrait - Mobile First */
+
+.menuIcon {
+  right: 40px;
+  z-index: 11;
+  position: fixed;
+  top: 40px;
+  cursor: pointer;
+  color: #fff;
+  background: #4b21ff;
+  padding: .2em .2em 0 .2em;
+  border-radius: 5px;
+  box-shadow: 9px -20px 74px 6px rgba(0, 0, 0, 0.34);
+}
+
+/* Mobile-Landscape (and larger) */
+@media (min-width: 480px) {
+
+}
+
+/* Tablet-Portrait (and larger) */
+@media (min-width: 768px) {
+
+}
+
+/* Tablet-Landscape (and larger) */
+@media (min-width: 992px) {
+
+}
+
+/* X-Large (and larger) */
+@media (min-width: 1680px) {
+
+}
+
+/* Laptop Media Styles */
+@media (min-width: 1100px) {
+  .menuIcon {
+    right: 40px;
+    z-index: 9;
+    position: absolute;
+    top: 40px;
+    cursor: pointer;
+  }
+    
+  .menuIcon:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 500ms;
+  }
+}

@@ -1,0 +1,285 @@
+/* Mobile-Portrait - Mobile First */
+.contentSection {
+  
+}
+
+.profileSection {
+  padding: 1em 2em 2em 2em;
+  min-height: 80vh;
+}
+
+.profileSection h1 {
+  font-size: 2.2rem;
+}
+
+.profileSection h5 {
+  font-size: 1rem;
+}
+
+.profileSection p {
+  font-size: 1.1rem;
+}
+
+.portfolioSection {
+  padding: 2em;
+}
+
+.projectInfo {
+  padding: 1em 1em 2em 1em;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+.projectDesc {
+  margin-bottom: .5em;
+  line-height: 1.3;
+}
+
+.projectDetails {
+  margin-bottom: .5em;
+}
+
+.projectTitle {
+  margin-bottom: .5em;
+}
+
+.projectBox {
+  text-align: center;
+}
+
+.mainButton {
+  text-decoration: none;
+  background: #4b21ff;
+  border-radius: 30px;
+  text-align: center;
+  color: #fefefe;
+  padding: 15px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  margin-top: 1em;
+  font-size: .9em;
+}
+
+.mainButton:hover {
+  background-color: #000;
+}
+
+.ghostBtn {
+  text-decoration: none;
+  border: 4px solid #4b21ff;
+  border-radius: 30px;
+  text-align: center;
+  color: #4b21ff;
+  padding: 12px 27px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: all 0.3s ease-in-out;
+  font-size: .9em;
+}
+
+.ghostBtn:hover {
+  border-color: black;
+  color: black;
+}
+
+.contentSection {
+  min-height: 85vh;
+}
+
+.imageSection {
+  
+}
+
+/* Mobile-Landscape (and larger) */
+@media (min-width: 480px) {
+  .contentSection {
+    display: flex;
+    /* height: 95vh; */
+  }
+  .imageSection {
+    width: 600px;
+  }
+}
+
+/* Tablet-Portrait (and larger) */
+@media (min-width: 768px) {
+  .contentSection {
+    display: flex;
+    /* height: 90vh; */
+  }
+  .imageSection {
+    width: 800px;
+  }
+}
+
+/* Tablet-Landscape (and larger) */
+@media (min-width: 992px) {
+  .contentSection {
+    display: flex;
+    /* height: 90vh; */
+  }
+}
+
+/* X-Large (and larger) */
+@media (min-width: 1680px) {
+
+}
+
+/* Laptops (and larger) */
+@media (min-width: 1200px) {
+  .container {
+    padding: 0 2rem;
+    max-width: 1920px;
+  }
+  
+  .contentSection {
+    width: 77%;
+    background-color: #fff;
+    height: 100%;
+    margin-left: 23%;
+  }
+  
+  .imageSection {
+    width: 30%;
+    position: relative;
+    height: 100%;
+    float: left;
+    margin-top: 20%;
+    box-shadow: 9px -20px 74px 6px rgba(0, 0, 0, 0.34);
+  }
+  
+  .profileSection {
+    width: 70%;
+    float: left;
+    padding: 20% 60px 0;
+    max-width: 800px;
+    min-height: 0;
+  }
+  
+  .profileSection h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0 0 1rem;
+  }
+
+  .blueLine {
+    background: #4D3EF6;
+    position: absolute;
+    height: 5px;
+    width: 85px;
+    left: 545px;
+    top: 245px;
+  }
+  
+  .profileSection h1 span {
+    color: #4b21ff;
+  }
+  
+  .profileSection h5 {
+    font-size: 1.1rem;
+    margin: 0 0 2rem;
+  }
+  
+  .profileSection p {
+    color: #a9a9a9;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0 0 2rem;
+  }
+  
+  .scrollSection {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 56px;
+  }
+  
+  .portfolioSection {
+    margin-bottom: 56px;
+  }
+  
+  .portfolioSection > h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+  }
+  
+  .projectSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+  }
+  
+  .projectBox {
+    position: relative;
+    padding: 30px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    height: 350px;
+    box-shadow: 0px 20px 74px 6px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+  }
+
+  .projectBox:hover {
+    box-shadow: 0px 10px 54px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .projectDesc {
+    margin-bottom: .5em;
+    position: relative;
+  }
+  
+  .projectDetails {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    margin: 0 0 1rem;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  
+  .projectTitle {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  
+  .projectInfo {
+    position: absolute;
+    bottom: 0;
+    padding: 2em;
+  }
+  
+  .greyBg {
+    background: #efefef;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .greyBg:hover {
+    opacity: .9;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1400px) {
+  .blueLine {
+    left: 835px;
+    top: 345px;
+  }
+}
