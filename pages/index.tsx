@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Menu from '../components/Menu'
 import InfoSection from '../components/InfoSection'
 import HomeContentSection from '../components/homeContentSection'
+import { motion } from 'framer-motion'
 
 const Home: NextPage = () => {
   return (
@@ -21,7 +22,22 @@ const Home: NextPage = () => {
       </Head>
       <Menu />
       <InfoSection />
+      <motion.div initial="hidden" animate="visible" variants={{
+        hidden: {
+          scale: .8,
+          opacity: 0
+        },
+        visible: {
+          scale: 1,
+          opacity: 1,
+          transition: {
+            delay: .4
+          }
+        },
+      }}>
       <HomeContentSection />
+      </motion.div>
+      
     </div>
   )
 }

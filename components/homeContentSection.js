@@ -3,13 +3,21 @@ import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import profilePic from '../public/matt.jpg'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 function homeContentSection() {
   return <>
         <div className={styles.contentSection}>
-            <div className={styles.imageSection}>
+            <motion.div className={styles.imageSection} whileHover={{
+                cursor: 'pointer',
+                scale: [1, 1.2, 1.1],
+                rotate: [0, 5, -5, 0],
+                transition: {
+                    duration: .2
+                }
+            }}>
                 <Image src={profilePic} alt="Picture of Matt" />
-            </div>
+            </motion.div>
             <div className={styles.profileSection}>
                 <h1>Matthew M.<br/><span>Moncada</span></h1>
                 <hr className={styles.blueLine} />
