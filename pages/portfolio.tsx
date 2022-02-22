@@ -13,6 +13,7 @@ import offenLogo from '../public/offenLogo.jpg'
 import centroLogo from '../public/centroLogo.jpg'
 import anaLogo from '../public/anaLogo.jpg'
 import coopsLogo from '../public/coopsLogo.png'
+import insa from '../public/insa.jpg'
 import portfolioLogo from '../public/portfolioLogo.jpeg'
 import { FaArrowRight } from "react-icons/fa";
 
@@ -37,6 +38,26 @@ const Home: NextPage = () => {
                 <h1>Latest Works ( 2017 - Current )</h1>
                 <div className={styles.projectSection}>
                 {/* Projects Section */}
+                    <a href="https://insa.com/" target="_blank" rel="noreferrer">
+                        <div className={styles.projectBox}>
+                        <Image className={styles.portfolioImage} src={insa} alt="Insa Logo" />
+                            <div className={styles.greyBg}>
+                                <div className={styles.projectInfo}>
+                                    <div className={styles.projectDesc}>
+                                    A website I built along a team in WordPress built with custom fields, 
+                                    Vue Components.
+                                    </div>
+                                    <div className={styles.projectDetails}>
+                                    Client: INSA | Type: WordPress | Year: 2021
+                                    </div>
+                                    <div className={styles.projectTitle}>
+                                    INSA
+                                    </div>
+                                    <FaArrowRight style={{ color: "#4b21ff", fontSize: "2rem" }} />
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                     <a href="https://mystifying-kirch-2e0d64.netlify.app/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={teslaLogo} alt="Tesla Logo" />
