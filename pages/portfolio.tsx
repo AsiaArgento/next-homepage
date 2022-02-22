@@ -88,7 +88,7 @@ const Home: NextPage = () => {
                                     Redux, Styled Components, MaterialUI, and React Reveal.
                                     </div>
                                     <div className={styles.projectDetails}>
-                                    Client: Personal | Type: React | Year: 2021
+                                    Client: theCoderSchool | Type: React | Year: 2021
                                     </div>
                                     <div className={styles.projectTitle}>
                                     Tesla Website Clone
@@ -108,7 +108,7 @@ const Home: NextPage = () => {
                                     using Firebase. Built with React, MaterialUI, StripeAPI.
                                     </div>
                                     <div className={styles.projectDetails}>
-                                    Client: Personal | Type: React | Year: 2021
+                                    Client: theCoderSchool | Type: React | Year: 2021
                                     </div>
                                     <div className={styles.projectTitle}>
                                     Amazon Website Clone
