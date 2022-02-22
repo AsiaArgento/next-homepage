@@ -13,6 +13,7 @@ import offenLogo from '../public/offenLogo.jpg'
 import centroLogo from '../public/centroLogo.jpg'
 import anaLogo from '../public/anaLogo.jpg'
 import coopsLogo from '../public/coopsLogo.png'
+import balfourLogo from '../public/balfourLogo.png'
 import insa from '../public/insa.jpg'
 import portfolioLogo from '../public/portfolioLogo.jpeg'
 import { FaArrowRight } from "react-icons/fa";
@@ -38,6 +39,25 @@ const Home: NextPage = () => {
                 <h1>Latest Works ( 2017 - Current )</h1>
                 <div className={styles.projectSection}>
                 {/* Projects Section */}
+                    <a href="https://balfourcare.com/" target="_blank" rel="noreferrer">
+                        <div className={styles.projectBox}>
+                        <Image className={styles.portfolioImage} src={balfourLogo} alt="Balfour Logo" />
+                            <div className={styles.greyBg}>
+                                <div className={styles.projectInfo}>
+                                    <div className={styles.projectDesc}>
+                                    A website I built in a WordPress theme using PHP.
+                                    </div>
+                                    <div className={styles.projectDetails}>
+                                    Client: Balfour | Type: WordPress | Year: 2021
+                                    </div>
+                                    <div className={styles.projectTitle}>
+                                    Balfour Care Living
+                                    </div>
+                                    <FaArrowRight style={{ color: "#4b21ff", fontSize: "2rem" }} />
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                     <a href="https://insa.com/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={insa} alt="Insa Logo" />
