@@ -10,9 +10,9 @@ const Home: NextPage = () => {
       <Head>
         <title>About</title>
         <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
-        <meta name="description" content="My name is Matthew Moncada. I am a frontend developer living in
-        Denver, Colorado. This is my about page detailing a bit about where I come from." />
-        <meta name="keywords" content="Matthew Marion Moncada, Frontend Developer, Web Developer, Business Card, WordPress, Full-stack, Denver, Colorado, United States of America" />
+        <meta name="description" content="My name is Matthew Moncada. I am a web developer living
+        in San Antonio, Texas. This is my about page detailing a bit about where I come from." />
+        <meta name="keywords" content="Matthew Marion Moncada, Frontend Developer, Web Developer, Business Card, WordPress, Full-stack, San Antonio, Texas" />
         <meta name="author" content="Matthew Marion Moncada"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />

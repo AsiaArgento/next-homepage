@@ -4,8 +4,8 @@ import styles from '../styles/Home.module.css'
 import Menu from '../components/Menu'
 import InfoSection from '../components/InfoSection'
 import Image from 'next/image'
-import teslaLogo from '../public/teslaLogo.png'
-import amazonLogo from '../public/amazonLogo.png'
+// import teslaLogo from '../public/teslaLogo.png'
+// import amazonLogo from '../public/amazonLogo.png'
 import kodiakLogo from '../public/kodiakLogo.webp'
 import replLogo from '../public/replLogo.png'
 import scratchLogo from '../public/scratchLogo.png'
@@ -24,9 +24,9 @@ const Home: NextPage = () => {
       <Head>
         <title>Portfolio</title>
         <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
-        <meta name="description" content="My name is Matthew Moncada. I am a frontend developer living in
-        Denver, Colorado. This is my portfolio of work over the years that I have been able to include." />
-        <meta name="keywords" content="Matthew Marion Moncada, Frontend Developer, Web Developer, Business Card, WordPress, Full-stack, Denver, Colorado, United States of America, Portfolio" />
+        <meta name="description" content="My name is Matthew Moncada. I am a web developer living in
+        San Antonio, Texas. This is my portfolio of work over the years that I have been able to include." />
+        <meta name="keywords" content="Matthew Marion Moncada, Frontend Developer, Web Developer, Business Card, WordPress, Full-stack, San Antonio, Texas, Portfolio" />
         <meta name="author" content="Matthew Marion Moncada"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                     </a>
-                    <a href="https://mystifying-kirch-2e0d64.netlify.app/" target="_blank" rel="noreferrer">
+                    {/* <a href="https://mystifying-kirch-2e0d64.netlify.app/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={teslaLogo} alt="Tesla Logo" />
                             <div className={styles.greyBg}>
@@ -97,8 +97,8 @@ const Home: NextPage = () => {
                                 </div>
                             </div>
                         </div>
-                    </a>
-                    <a href="https://clone-2e37c.firebaseapp.com/" target="_blank" rel="noreferrer">
+                    </a> */}
+                    {/* <a href="https://clone-2e37c.firebaseapp.com/" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={amazonLogo} alt="Amazon Logo" />
                             <div className={styles.greyBg}>
@@ -117,7 +117,7 @@ const Home: NextPage = () => {
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </a> */}
                     <a href="https://kodiakcakes.com/blogs/athletes" target="_blank" rel="noreferrer">
                         <div className={styles.projectBox}>
                         <Image className={styles.portfolioImage} src={kodiakLogo} alt="Kodiak Cakes Logo" />
@@ -322,7 +322,7 @@ const Home: NextPage = () => {
                                     This was my first portfolio website that I built. It contains other website builds and a couple games.
                                     </div>
                                     <div className={styles.projectDetails}>
-                                    Client: Matt M | Type: HTML, CSS, JS | Year: 2017
+                                    Client: Myself | Type: HTML, CSS, JS | Year: 2017
                                     </div>
                                     <div className={styles.projectTitle}>
                                     My First Portfolio Website

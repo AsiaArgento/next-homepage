@@ -21,9 +21,9 @@ function homeContentSection() {
             <div className={styles.profileSection}>
                 <h1>Matthew M.<br/><span>Moncada</span></h1>
                 <hr className={styles.blueLine} />
-                <h5>Front-End Developer</h5>
+                <h5>Web Developer</h5>
                 <p>Welcome to my virtual business card. You can find links to my various social accounts.
-                I have over 5 years of experience developing websites for my clients.<br/><br/>
+                I have over 4 years of experience developing websites for my clients.<br/><br/>
                 Currently, I am focusing on building accessible, human-centered experiences using modern tools.
                 This website is built using NextJs.
                 </p>
